@@ -21,9 +21,9 @@
     <div class="row">
       <div class="col-lg-3 col-xs-6">
         <div class="info-box">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-truck"></i></span>
+          <span class="info-box-icon bg-aqua"><i class="fa fa-caret-up"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ยอดดีเซลทั้งหมด</span>
+            <span class="info-box-text">ยอดกระสุนปืนเล็กทั้งหมด</span>
             <span class="info-box-number">
               <?php echo $total_diesel ?></span>
           </div>
@@ -35,9 +35,9 @@
 
       <div class="col-lg-3 col-xs-6">
         <div class="info-box">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-car"></i></span>
+          <span class="info-box-icon bg-aqua"><i class="fa fa-chevron-up"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ยอดเบนซินทั้งหมด</span>
+            <span class="info-box-text">ยอดกระสุนปืนใหญ่ทั้งหมด</span>
             <span class="info-box-number">
               <?php echo $total_sohol ?></span>
           </div>
@@ -51,7 +51,7 @@
         <div class="info-box">
           <span class="info-box-icon bg-aqua"><i class="fa fa-battery"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ยอดอัตราพิกัด<br>ดีเซล/เบนซิน</span>
+            <span class="info-box-text">ยอดอัตรามูลฐาน<br>เล็ก/ใหญ่</span>
             <span class="info-box-number">
               <?php echo $total_capacity_diesel ?> / <?php echo $total_capacity_sohol ?></span>
           </div>
@@ -65,7 +65,7 @@
         <div class="info-box">
           <span class="info-box-icon bg-aqua"><i class="fa fa-credit-card"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ยอดเครดิตประจำปี<br>ดีเซล/เบนซิน</span>
+            <span class="info-box-text">ยอดเครดิตประจำปี<br>เล็ก/ใหญ่</span>
             <span class="info-box-number">
             <?php echo $total_credit_diesel ?> / <?php echo $total_credit_sohol ?></span>
           </div>
@@ -81,9 +81,9 @@
     <div class="row">
       <div class="col-lg-3 col-xs-6">
         <div class="info-box">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-envira"></i></span>
+          <span class="info-box-icon bg-aqua"><i class="fa fa-user"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ยอดธุรการประจำเดือน<br>ดีเซล/เบนซิน</span>
+            <span class="info-box-text">ยอดคฝึกรูทหารใหม่<br>เล็ก/ใหญ่</span>
             <span class="info-box-number">
             <?php echo $total_job_diesel ?> / <?php echo $total_job_sohol ?></span>
           </div>
@@ -95,9 +95,9 @@
 
       <div class="col-lg-3 col-xs-6">
         <div class="info-box">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-rocket"></i></span>
+          <span class="info-box-icon bg-aqua"><i class="fa fa-users"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ลองเครื่องประจำเดือน<br>ดีเซล/เบนซิน</span>
+            <span class="info-box-text">ยอดฝึกทหารใหม่<br>เล็ก/ใหญ่</span>
             <span class="info-box-number">
             <?php echo $total_engine_diesel ?> / <?php echo $total_engine_sohol ?></span>
           </div>
@@ -109,9 +109,9 @@
 
       <div class="col-lg-3 col-xs-6">
         <div class="info-box">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-group"></i></span>
+          <span class="info-box-icon bg-aqua"><i class="fa fa-cogs"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">รับ-ส่งนักเรียน<br>ดีเซล/เบนซิน</span>
+            <span class="info-box-text">ภาคกองพัน<br>เล็ก/ใหญ่</span>
             <span class="info-box-number">
             <?php echo $total_school_diesel ?> / <?php echo $total_school_sohol ?></span>
           </div>
@@ -123,9 +123,9 @@
 
       <div class="col-lg-3 col-xs-6">
         <div class="info-box">
-          <span class="info-box-icon bg-aqua"><i class="fa fa-cogs"></i></span>
+          <span class="info-box-icon bg-aqua"><i class="fa fa-cog"></i></span>
           <div class="info-box-content">
-            <span class="info-box-text">ฝึก-ศึกษา<br>ดีเซล/เบนซิน</span>
+            <span class="info-box-text">ภาคกองร้อย<br>เล็ก/ใหญ่</span>
             <span class="info-box-number">
             <?php echo $total_train_diesel ?> / <?php echo $total_train_sohol ?></span>
           </div>
