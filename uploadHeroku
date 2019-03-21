@@ -1,0 +1,6 @@
+#!/bin/bash
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+git add * -f
+git commit -am "v.1"
+git push heroku master
