@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://arty-106-inventory.herokuapp.com/';
+$config['base_url'] = 'https://arty-106-ammo.herokuapp.com/';
 //$config['base_url'] = 'http://localhost/arty106-inventory/';
 
 /*
